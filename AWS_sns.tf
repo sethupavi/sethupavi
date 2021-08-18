@@ -23,7 +23,7 @@ resource "aws_sns_topic_subscription" "vil-ops-notification_prod_1" {
 resource "aws_sns_topic_subscription" "vil-ops-notification_prod_2" {
   topic_arn = aws_sns_topic.vilsnstopic.arn
   protocol  = "email"
-  endpoint  = "sethuraman.B@gmail.com"
+  endpoint  = "sethuraman.B@infosys.com"
 }
 
 
