@@ -18,6 +18,6 @@ variable "awsregion" {
 
 variable "vil-ops-notification-prod" {
   default = {
-    name = "vil-ops-notification-prod"   
+    name = "vil-ops-notification-"   
     }
 }
